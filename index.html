@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Interactive Photo Gallery - Wander Notes</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1>Interactive Photo Gallery</h1>
+  <div id="image" class="preview" role="status" aria-live="polite">Hover over an image below to display here.</div>
+  <div class="thumbs">
+    <img class="thumb" src="images/photo1.jpg" alt="Colorful silk lanterns glowing in Hoi An" tabindex="0" onmouseover="upDate(this)" onmouseout="undo()" onfocus="upDate(this)" onblur="undo()">
+    <img class="thumb" src="images/photo2.jpg" alt="Golden rice terraces in the mountains of Sapa" tabindex="0" onmouseover="upDate(this)" onmouseout="undo()" onfocus="upDate(this)" onblur="undo()">
+    <img class="thumb" src="images/photo3.jpg" alt="Tour boats on the green water of Ha Long Bay" tabindex="0" onmouseover="upDate(this)" onmouseout="undo()" onfocus="upDate(this)" onblur="undo()">
+    <img class="thumb" src="images/photo4.jpg" alt="People walking through a busy night street food market" tabindex="0" onmouseover="upDate(this)" onmouseout="undo()" onfocus="upDate(this)" onblur="undo()">
+    <img class="thumb" src="images/photo5.jpg" alt="Aerial view of a beach and fishing village with turquoise water" tabindex="0" onmouseover="upDate(this)" onmouseout="undo()" onfocus="upDate(this)" onblur="undo()">
+    <img class="thumb" src="images/photo6.jpg" alt="Motorbike riders on a mountain road in Ha Giang" tabindex="0" onmouseover="upDate(this)" onmouseout="undo()" onfocus="upDate(this)" onblur="undo()">
+  </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
